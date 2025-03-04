@@ -1,0 +1,234 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100%;
+  /* background-color: #ebcd94; */
+  background-image: url(img2.jpg);
+  position: relative;
+  overflow: hidden;
+}
+.home img {
+  height: 100vh;
+  width: 50%;
+  object-fit: auto;
+  overflow: hidden;
+}
+/* Media Queries */
+@media (max-width: 599px) {
+  .home img {
+    height: 100vh;
+    width: 100%;
+    object-fit: auto;
+  }
+  .section1 p {
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+@media (min-width: 600px) {
+  .home img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.section1 {
+  height: 100vh;
+  /* background-color: red; */
+  position: absolute;
+  width: 100%;
+}
+.section1 h1 {
+  color: black;
+  padding-top: 10vh;
+  text-shadow: 10px 7px 20px #d2d0d0;
+  padding-left: 6vw;
+  font-size: 4.5rem;
+  font-weight: bolder;
+
+  font-family: stencil;
+  flex-wrap: wrap;
+}
+.section1 h2 {
+  color: black;
+  padding-left: 15vw;
+  /* text-shadow: 10px 7px 20px #d2d0d0; */
+  font-size: 4rem;
+  margin-top: 5vh;
+  font-weight: bolder;
+
+  font-family: stencil;
+  text-shadow: 10px 7px 20px #363636;
+}
+.section1 p {
+  padding: 2vh 6vw;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.section2 {
+  height: 100vh;
+
+  width: 100%;
+}
+
+.hero {
+  height: 70vh;
+  width: 80%;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  padding-right: 5vw;
+}
+.hero img {
+  height: 70%;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 30px 20px 50px #363636;
+}
+
+.hero h1 {
+  color: black;
+  padding: 8vh 4vw;
+  font-size: 3rem;
+  font-family: stencil;
+  text-shadow: 10px 7px 20px #363636;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    height: 200vh;
+  }
+  .hero img {
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+    padding-bottom: 3vh;
+    padding-right: 4vw;
+    border-radius: 10%;
+    box-shadow: 30px 20px 50px #363636;
+  }
+  .section1 {
+    height: 100vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-left: 2vw;
+  }
+  .section2 {
+    height: 150vh;
+    width: 100%;
+    padding-bottom: 8vh;
+    background-color: #363636;
+  }
+  .hero h1 {
+    color: black;
+    padding: 8vh 12vw;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #eefba2;
+    font-family: stencil;
+    text-shadow: 10px 7px 20px #363636;
+  }
+  .section1 h1 {
+    color: black;
+    padding-top: 10vh;
+    text-shadow: 10px 7px 20px #e0dcdc;
+    padding-left: 6vw;
+    font-size: 3rem;
+    font-weight: bolder;
+
+    font-family: stencil;
+    flex-wrap: wrap;
+  }
+  .section1 h2 {
+    color: black;
+    padding-left: 28vw;
+    font-size: 2rem;
+
+    margin-top: 5vh;
+    font-weight: bolder;
+
+    font-family: stencil;
+    text-shadow: 10px 7px 20px #363636;
+  }
+  .section1 p {
+    padding: 2vh 6vw;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    font-family: cursive;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home {
+    height: 200vh;
+  }
+  .hero img {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 3vh;
+    padding-right: 4vw;
+    border-radius: 10%;
+    box-shadow: 30px 20px 50px #363636;
+  }
+  .section1 {
+    height: 100vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-left: 2vw;
+  }
+  .section2 {
+    height: 200vh;
+    width: 100%;
+    padding-bottom: 8vh;
+    background-color: #363636;
+  }
+  .hero h1 {
+    color: black;
+    padding: 8vh 12vw;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #eefba2;
+    font-family: stencil;
+    text-shadow: 10px 7px 20px #363636;
+  }
+  .section1 h1 {
+    color: black;
+    padding-top: 10vh;
+    text-shadow: 10px 7px 20px #363636;
+    padding-left: 6vw;
+    font-size: 3rem;
+    font-weight: bolder;
+
+    font-family: stencil;
+    flex-wrap: wrap;
+  }
+  .section1 h2 {
+    color: black;
+    padding-left: 28vw;
+    font-size: 2rem;
+    margin-top: 5vh;
+    font-weight: bolder;
+
+    font-family: stencil;
+    text-shadow: 10px 7px 20px #363636;
+  }
+  .section1 p {
+    padding: 2vh 6vw;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: angaline;
+  }
+}

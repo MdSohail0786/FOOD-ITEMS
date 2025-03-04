@@ -1,0 +1,12 @@
+.slider {
+  height: 40vh;
+  width: 100%;
+  /* background-color: red; */
+}
+.slider-img {
+  height: 40vh;
+  width: 100%;
+  background-color: none;
+  margin-top: 120px;
+  background-image: image(img1);
+}
